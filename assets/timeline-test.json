@@ -1,0 +1,366 @@
+{
+    "events": [
+        {
+            "start_date":{
+                "year":"2019",
+                "month":"7"
+            },
+            "text": {
+                "headline": "Powell River Consolidated WasteWater Treatment Plant",
+                "text":"Structural designer for the two structures of the treatment plant, comprising admin building and process building.  Materials used for the various building structures include concrete, masonry, steel and wood-frame.  The structural design is carefully undertaken to ensure the key requirements of wastewater facilities, such as durability against the aggressive process environment, process and operational needs, post-disaster seismic resistance, and water-tightness of the process cells and channels, are all met."
+            },
+            "group": "Design",
+            "media":{
+                "url":"https://cc-production-uploads-bucket.s3.amazonaws.com/uploads/2021/05/Graham-Wastewater-mainweb.jpg",
+                "Credit":"constructconnect.com"
+            }
+        },
+        {
+            "start_date":{
+                "year":"2022",
+                "month":"2"
+            },
+            "text":{
+                "headline":"Serpentine Water Control Structure",
+                "text":"Watertight concrete structure spanning acorss the serpentine river whose: <li> Primary purpose is to provide flood protection to the Surrey Lowlands</li><li>Limits the tidal fluctuation in the Serpentine River.</li><li>Allows the Serpentine River to flow into Boundary Bay through gravity drainage during periods of low tide.</li><li>Intent is to replace the existing structure which is over 100 years old, seismically vulnerable, and cannot accommodate future sea level rise.</li>"
+            },
+            "group":"Design",
+            "media":{
+                "url":"https://cloud.rpakishore.co.in/s/5ynf63472CortfW/preview",
+                "Credit":""
+            },
+            "unique_id":"latest"
+        },
+        {
+            "start_date":{
+                "year":"2019",
+                "month":"10"
+            },
+            "text":{
+                "headline":"Lower Seymour Watershed Admin Building",
+                "text":"Design engineer responsible for the foundations of architecturally expressive administration building, consisting of an entry space, office workspaces, a multipurpose area and various rooms.  The pitched roof structure will be constructed in cross-laminated timber and will have a number of significant overhangs."
+            },
+            "group":"Design",
+            "media":{
+                "url":"https://cloud.rpakishore.co.in/s/PkKyJfLc5EooWjT/preview",
+                "Credit":""
+            }
+        },
+        {
+            "start_date":{
+                "year":"2020",
+                "month": "12"
+            },
+            "text":{
+                "headline": "Simon Fraser University Parcel 21",
+                "text": "<p>Situated on Simon Fraser University's Burnaby campus, the Parcel 21 energy-efficient residence will house over 80 affordable rental apartment units. It comprises a four-storey wood frame building on a concrete parkade, plus a six-storey wood frame building. Associated Engineering was retained to provide structural and electrical engineering services on this $21.5 million project.</p><p>To meet the rigorous BC Energy Step Code requirements, we applied many passive house principles in the design of the project, including:<li>A super-insulated building envelope</li><li>Continuous air barrier to minimize leakage</li><li>High performance windows</li><li>Engineering and detailing of connections details to minimize thermal bridging</li><li>A heat-recovery ventilation system to improve indoor air quality</li><li>Canopies and other structures that are thermally separated from the building envelope</li><li>Sunshades that help prevent overheating in the summer</li></p><p>In addition to designing the structure for high seismicity, the structural detailing was carefully undertaken to mitigate the effects of vertical shrinkage of the wood structure and to preserve the continuity of the thermal envelope around the residential portion of the structure.</p>"
+            },
+            "group":"Construction Admin",
+            "media":{
+                "url":"https://www.ae.ca/images/default-source/projects/sfu-parcel-21---image-3.jpg?sfvrsn=7af7c480_0",
+                "Credit":"ae.ca"
+            }
+        },
+        {
+            "start_date":{
+                "year":"2016",
+                "month":"8"
+            },
+            "text":{
+                "headline":"Piedmont Atlanta Hospital Marcus Tower",
+                "text":"950,000 sq ft | $450 million | 16 stories | Completed in 2020<br><br><b>Structural Features:</b><li>This major expansion to the Piedmont Atlanta Hospital campus houses critical and acute care patient beds, laboratories, and surgery centers.</li><li>The signature curved geometry of the building was achieved using post-tensioned concrete framing.</li><li>Tower columns could not continue through the large open ground floor lobby, resulting in the need for a system of massive 10-foot deep post-tensioned transfer girders above.</li><li>Special measures were undertaken to accommodate the tie-in to multiple adjacent buildings.</li><li>The sloping site and variable subgrade conditions resulted in significant earth retention challenges and also the need for multiple foundation types.</li>"
+            },
+            "media":{
+                "url":"https://uzuncase.com/wp-content/uploads/2020/10/Piedmont-Atlanta-Hospital-New-Tower_Hero.jpg",
+                "Credit":"uzuncase.com"
+            },
+            "group":"Design"
+        },
+        {
+            "start_date":{
+                "year":"2017",
+                "month":"3"
+            },
+            "text":{
+                "headline":"Mississippi Aquarium",
+                "text":"250,000 sq ft | $40 million | 3 stories | Completed in 2020 <br><br><b>Structural Features</b><li>Sitting on 5.8 acres, the aquarium is comprised of 7 buildings and 6 exterior exhibits connected by landscaped walkways.</li><li>The 3-story main building is concrete framed with integral 29-foot deep concrete exhibit tank. All the concrete exhibit tanks are designed in accordance with ACI 350 for water-tightness and durability.</li><li>LSS equipment is within an exterior yard with an underground pumped drainage system and a perimeter wall designed to hold back storm surge waters.</li>"
+            },
+            "media":{
+                "url":"https://uzuncase.com/wp-content/uploads/2020/10/Mississippi-Aquarium-5.jpg",
+                "caption":"uzuncase.com"
+            },
+            "group":"Design"
+        },
+        {
+            "start_date":{
+                "year":"2017",
+                "month":"11"
+            },
+            "text":{
+                "headline":"Georgia Aquarium Predator Exhibit",
+                "text":"10,000 sq ft | $126 million | 4 stories | Completed in 2020 <br><br><b>Structural Features</b><li>One of the largest expansions of the Georgia Aquarium to date, the new predator exhibit adds 10,000 sf of gallery space and redesigns the aquarium's main entrance.</li><li>The expansion's saltwater tank is designed to feature sharks and holds over one million gallons of water.</li><li>Floor to ceiling acrylic windows provide visitors an immersive experience while learning about the apex predators.</li><li>Uzun + Case designed the original aquarium structure, and since its grand opening in 2005, Uzun + Case has been the structural engineer for numerous expansion and renovations, including the Dolphin Theater.</li>"
+            },
+            "media":{
+                "url":"https://uzuncase.com/wp-content/uploads/2020/11/Georgia-Aquarium-Predator-Exhibit_Hero.jpg",
+                "caption":"uzuncase.com"
+            },
+            "group":"Design"
+        },
+        {
+            "start_date":{
+                "year":"2016",
+                "month":"03"
+            },
+            "text":{
+                "headline":"AMLI Arts Center",
+                "text":"443,000 sq ft | $66 million | 19 stories | LEED BD+C: NC v3 Gold <br><br><b>Structural Features</b><li>Planted landscaping, a structured pool, sundeck, and other luxury amenities are supported on the top level of the parking deck.</li>Tower floors typically consist of 7-1/2″ thick post-tensioned flat slabs which minimizes structural depth and allows for reduced overall building height. This provides significant savings on building skin costs, while still allowing for luxury features such as 10 foot ceiling heights and floor-to-ceiling windows. The concrete flat slab also allows for the slab soffit to serve as the ceiling in many locations, which provides additional savings.<li></li><li>The multi-story pedestrian bridge is constructed using concrete-framed structure. This allowed the bridge to be constructed efficiently and simultaneously with the tower.</li>"
+            },
+            "media":{
+                "url":"https://uzuncase.com/wp-content/uploads/2020/10/AMLI-Arts-Center_Hero.jpg",
+                "caption":"uzuncase.com"
+            },
+            "group":"Construction Admin"
+        },
+        {
+            "start_date":{
+                "year":"2018",
+                "month":"08"
+            },
+            "text":{
+                "headline":"Four Winds South Bend Casino and Hotel",
+                "text":"603,000 sq ft | Multiphase casino project | 23 stories | Estimated 2023<br><br><b>Structural Features</b><li>Phase One consists of 175,000 sf of casino gaming, completed in 2018.</li><li>The casino is constructed of structural steel framing with a braced frame lateral system.</li><li>Phase Two adds a 23-story, 317-room hotel, designed using flat-plate floors and concrete shearwalls. The hotel’s second level includes a ballroom, meeting spaces, and a full day spa. The third level has an outdoor amenity deck with swimming pool, bar, and rooftop lounge.</li>"
+            },
+            "media":{
+                "url":"https://uzuncase.com/wp-content/uploads/2020/10/Four-Winds-South-Bend_Hero.jpg",
+                "Credit":"uzuncase.com"
+            },
+            "group":"Design"
+        },
+        {
+            "start_date":{
+                "year":"2019",
+                "month":"11"
+            },
+            "text":{
+                "headline":"Parkland Refining Plant OFC Building Addition",
+                "text":"<p>Performed independent concept review on design consultant's structural design of an addition/expansion to the existing Operations Field Centre building.</p> <p>The structure is subject to large blast loadings.</p>  <p>Components that are reviewed include the new addition, its connections to the existing structure, the adequacy of the existing structure itself, and the existing foundation.</p>"
+            },
+            "media": {
+                "url":"https://cloud.rpakishore.co.in/s/SgQyTTqYfrfBit6/preview",
+                "credit":""
+            },
+            "group":"Independent Review"
+        },
+        {
+            "start_date":{
+                "year":"2021",
+                "month":"10"
+            },
+            "text":{
+                "headline":"Deh Cho Housing Restoration",
+                "text":"<p>Associated Engineering partnered with Collier Project Leaders to assist Government of Northwest Territories, Municipal and Commiunity Affairs (MACA) in the rebuilding of the homes damaged by the flood.</p><p><b>Scope of works:</b><li>eview of provided existing information, including adjuster reports.</li><li>Onsite structural assessments and documentation of existing conditions related to the foundation structures.</li><li>Analysis to determine feasibility and extent of raising reviewed houses.</li><li>Construction documents for the remedial repairs and extension of existing foundations. It is anticipated that standardized details and designs will be used to the greatest extent possible to simplify construction and material usage</li><li>Onsite inspections and construction progress tracking.</li><li>Final inspection and project close-out / documentation including record drawings </li>"
+            },
+            "media":{
+                "url":"https://cloud.rpakishore.co.in/s/nBb4aZ8Tw3ZAPa6/preview",
+                "Credit":"CKLB Radio"
+            },
+            "group":"Construction Admin"
+        },
+        {
+            "start_date":{
+                "year":"2022",
+                "month":"05"
+            },
+            "text":{
+                "headline":"Hay River Post-Flood Condition and Mitigation",
+                "text":"<p>Associated Engineering partnered with Collier Project Leaders to assist Government of Northwest Territories, Municipal and Commiunity Affairs (MACA) in the rebuilding of the homes damaged by the flood.</p><p><b>Scope of works:</b><li>eview of provided existing information, including adjuster reports.</li><li>Onsite structural assessments and documentation of existing conditions related to the foundation structures.</li><li>Analysis to determine feasibility and extent of raising reviewed houses.</li><li>Construction documents for the remedial repairs and extension of existing foundations. It is anticipated that standardized details and designs will be used to the greatest extent possible to simplify construction and material usage</li><li>Onsite inspections and construction progress tracking.</li><li>Final inspection and project close-out / documentation including record drawings </li>"
+            },
+            "media":{
+                "url":"https://cloud.rpakishore.co.in/s/eq7F4mw9zbG8wGK/preview",
+                "Credit":"cbc.ca"
+            },
+            "group":"Design"
+        },
+        {
+            "start_date":{
+                "year":"2020",
+                "month":"5"
+            },
+            "text":{
+                "headline":"Broxbourne School, UK",
+                "text":"<p>Peer review and design assistance for a multi-level cantilever feature stair for a school.</p><p>The primary scope of the project is to identify/isolate and eliminate the vibrational model shapes associated with the structure.</p>"
+            },
+            "media":{
+                "url":"https://cloud.rpakishore.co.in/s/r2QaaCWtRMAcirA/preview",
+                "Credit":""
+            },
+            "group":"Design"
+        },
+        {
+            "start_date":{
+                "year":"2019",
+                "month":"12"
+            },
+            "text":{
+                "headline":"LNGC Construction Village",
+                "text":"<p>LNG Canada is a co-venture between Shell Canada, Petronas, Diamond LNG Canada Ltd. (Mitsubishi), Kogas Canada LNG Ltd. (Korea Gas) and Brion Kitimat LNG Partnership (PetroChina) to develop a liquefied natural gas (LNG) facility on the north coast of British Columbia. The project includes the design, construction and operation of a natural gas gathering system in northeast BC, a pipeline to Kitimat, and at Kitimat a liquefaction terminal and marine off-loading facilities. </p><p>The scope of work for this contract is the design, development and implementation of the LNG Canada Workforce Accommodation Centre named Cedar Valley Lodge, which will be constructed west of the plant site to house 4,500 workers during the construction of the LNG terminal. The lodge has a 10-year life and is to be designed and constructed to ensure quality accommodation for the construction workers and support a “Camp of Choice” philosophy.</p><p>Bird-Civeo Joint Venture (B-C JV) won the LNG Canada design-build contract for Cedar Valley Lodge. Bird Construction is responsible for the overall management of the project and on-site construction. Civeo is responsible for the design, construction and transportation of the modular units to site. BR2 Architects was retained by B-C JV as the architect of record for the core buildings. Brybil (a division of Associated Engineering) was retained by B-C JV as the engineer of record for site works including site grading, modular foundations, core building design (foundations, building mechanical and building electrical), utilities, site electrical, roadways, parking lots and landscaping. </p><p>Detailed design of Cedar Valley Lodge began in February 2016 and was progressed to 90% completion before being suspended by LNG Canada in November of 2016. Design work resumed in June 2018 and will be completed in early 2019 if a positive final investment decision is achieved in Q3, 2018.</p>"
+            },
+            "media":{
+                "url":"https://cloud.rpakishore.co.in/s/qpMJKgie9ko53e3/preview",
+                "Credit":"vmcdn.ca"
+            },
+            "group":"Design"
+        },
+        {
+            "start_date":{
+                "year":"2020",
+                "month":"03"
+            },
+            "text":{
+                "headline":"CRD Residuals Treatment Facility",
+                "text":"<p>Associated Engineering was a key team member in the successful Design-Build-Operate Pursuit for the future ~$100 million Residuals Treatment Facility (RTF) for the Capital Regional District (CRD). The RTF will receive and stabilize the residuals (i.e., primary sludge, waste activated sludge) from the CRD’s future $765 million McLoughlin Point Wastewater Treatment Plant, a 108-ML/d tertiary treatment plant; the RTF will also receive and stabilize hauled wastes from the region.</p><p>Associated Engineering is the Engineering Team Lead and, together with the constructors, technology provider and operator, will be implementing a facility includes equalization, thickening, anaerobic digestion, dewatering, beneficial use of biogas, drying and heat recovery. The facility will include an operations/ administration building with a LEED Gold target, and a sophisticated odour control system.</p>"
+            },
+            "media":{
+                "url":"https://cloud.rpakishore.co.in/s/8rDTG62qA4wCRWn/preview",
+                "Credit":"synagro.com"
+            },
+            "group":"Construction Admin"
+        },
+        {
+            "start_date":{
+                "year":"2020",
+                "month":"10"
+            },
+            "text":{
+                "headline":"Camrose WWTP Upgrade Project",
+                "text":"<p>Performed engineering calculations for the steel structural elements in the wastewater treatment plant in Camrose and for the existing lift station upgrades. </p><p>The main structures include a new process building housing flocculation and coagulation tanks, alum tanks, HVAC, electrical, blower and lab spaces, and a 16.2 m square x 9 m tall in-situ 2-cell reinforced concrete MBBR tanks. </p><p>Project Engineer for blower building conversion upgrades.</p>"
+            },
+            "media":{
+                "url":"https://cloud.rpakishore.co.in/s/Lc4aKgn5N7Eaq6z/preview",
+                "Credit":"ourcamrose.ca"
+            },
+            "group":"Design"
+        },
+        {
+            "start_date":{
+                "year":"2021",
+                "month":"02"
+            },
+            "text":{
+                "headline":"Paradise Show House",
+                "text":"<p>The primary structure is proposed to include shallow footing foundations, a structured ground floor over crawl space, a partial second floor, and pitched roof. Superstructure components will consist of steel beams supporting Nexii panels at the ground and second floors, and exposed timber beams supporting the Nexii panels at the roof. Walls will consist of load-bearing Nexii panels designed to support the floor system, roof system and lateral loads. In addition, a smaller separate garage/office will be included, and is proposed as a concrete slab-on-grade with shallow foundations and similar Nexii superstructure.</p><p>The following are within the scope of work:<li>Structural Design Services for the conventional concrete elements, including foundations and retaining walls around the Nexii's single-family show home. </li><li>Structural design services for the concrete foundation for the approximately 300 square feet separate one-storey office structure.</li><li>Design collaboration and review of calculations and details as provided by Nexii. </li><li>Technical specifications. </li><li>Attend project coordination and design meetings as described below. </li><li>Permitting and construction related services as outlined below.</li></p>"
+            },
+            "media":{
+                "url":"https://cloud.rpakishore.co.in/s/NyP9XQPfPkEP5Er/preview",
+                "Credit":""
+            },
+            "group":"Design"
+        },
+        {
+            "start_date":{
+                "year":"2020",
+                "month":"02"
+            },
+            "text":{
+                "headline":"ABB Transformers",
+                "text":"<b>Structural scope includes:</b><li>Perform FEM analysis to analyze and identify the stress profiles during the lifting process of industrial transformers</li><li>Design an alternate profile with stringent requirements of consumer spec to accomodate the obtained stresses</li>"
+            },
+            "media":{
+                "url":"https://cloud.rpakishore.co.in/s/sy3sHXxdSk4R9f5/preview",
+                "Credit":""
+            },
+            "group":"Design"
+        },
+        {
+            "start_date":{
+                "year":"2019",
+                "month":"10"
+            },
+            "text":{
+                "headline":"LNGC Non-Process Buildings",
+                "text":"<p>Structural Design engineer for the design of multiple large scale reinforced concrete foundations. This included the design of foundations for the new materials warehouse, central workshop, and artic corridor walkways connecting all buildings on site.</p><p>Automated a process for model creation/analysis and parsing of results.</p>"
+            },
+            "media":{
+                "url":"https://cloud.rpakishore.co.in/s/7dyTAyGL2joSjpX/preview",
+                "Credit":"kitimat.ca"
+            },
+            "group":"Design"
+        },
+        {
+            "start_date":{
+                "year":"2020",
+                "month":"07"
+            },
+            "text":{
+                "headline":"Grassy Mountain Mine",
+                "text":"<p>: Structural design engineer for the complete design of reinforced concrete foundations for 3 structures, covering over 1300 m2. Challenges included support for heavy mining trucks, durability for water retaining locations and coordination with architect and Pre-Eng. manufacturer for optimum design. Also responsible for multi-storey platform and stair design in the Truck wash building to resist dynamic water jet loads.</p>"
+            },
+            "media":{
+                "url":"https://cloud.rpakishore.co.in/s/bTgmcPZnX4PTqZT/preview",
+                "Credit":""
+            },
+            "group":"Design"
+        },
+        {
+            "start_date":{
+                "year":"2020",
+                "month":"08"
+            },
+            "text":{
+                "headline":"Whistle Bend School Owner's Advisor",
+                "text":"Provide multi-disciplinary Owner's Advisor services to review the functional and spatial program, develop a detailed Owner's Statement of Requirements, conceptual design, and schematic design, and assist during the procurement, design and construction phases of the Design-Build project."
+            },
+            "media":{
+                "url":"https://cloud.rpakishore.co.in/s/Btbdzx6nG5MX3od/preview",
+                "Credit":""
+            },
+            "group":"Independent Review"
+        },
+        {
+            "start_date":{
+                "year":"2019",
+                "month":"09"
+            },
+            "text":{
+                "headline":"Aberdeen Lake Dam Upgrades",
+                "text":"<p><b>Structural Components</b><li>Design of a pre-cast concrete tunnel and valve chambers to house the pipe assembly. The design of the pre-cast concrete elements will be executed by a specialized manufacturer.</li><li>Design of an elevated steel platform and its relevant supports.</li><li>Design of concrete pedestals to support the gate valve</li><li>Design of concrete pipe supports and anchors to support the pipe loading.</li></p>"
+            },
+            "media":{
+                "url":"https://cloud.rpakishore.co.in/s/3KnaLtfWC2GPFXf/preview",
+                "Credit":""
+            },
+            "group":"Design"
+        },
+        {
+            "start_date":{
+                "year":"2021",
+                "month":"05"
+            },
+            "text":{
+                "headline":"Haisla Bridge Replacement Project Design-Build",
+                "text":"<p>Brybil as lead with Ledcor and Thurber and NHC as subs under a design-build agreement. Design and engineering construction services. </p> <b>Scope:</b><br>The Project currently includes the following components: <li>Design and construction of an approximately 235m four-span bridge with two spans over the river and two short end spans upstream of the existing Haisla Bridge, complete with Multi-Use Path.</li><li>Realignment of the roadway approaches and sidewalks.</li><li>Realignment of utilities (storm, sanitary, water, power, communications, and natural gas) along the new bridge.</li><li>Design and construction of alternate access to effected properties.</li><li>Traffic management during construction to maintain access across the existing Haisla Bridge and to adjacent properties for all transportation modes.</li><li>Demolition and removal of the existing Haisla Bridge and approach access."
+            },
+            "media":{
+                "url":"https://cloud.rpakishore.co.in/s/sET3amQgnMX8ngA/preview",
+                "Credit":""
+            },
+            "group":"Design"
+        },
+        {
+            "start_date":{
+                "year":"2021",
+                "month":"06"
+            },
+            "text":{
+                "headline":"Bay Avenue Wastewater Pump Station",
+                "text":"<p>Structural Designer for the Redesign of a wastewater pump station with 300 L/s capacity within a tightly constrained site with steep excavations and temporary shoring requirements.</p><p>The structural scope involves the design and construction of a new valve chamber and second wet well to be attached to the existing concrete wet well. Strengthening details were also designed to upgrade the existing wet well to meet the latest code requirements. </p><p>Structural detailing was also done for a guide track for supporting a material conveyance cart.</p>"
+            },
+            "media":{
+                "url":"https://cloud.rpakishore.co.in/s/p8jTMdYj3q7cBSd/preview",
+                "Credit":""
+            },
+            "group":"Design"
+        }
+
+    ]
+  }
