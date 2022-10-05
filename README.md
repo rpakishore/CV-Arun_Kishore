@@ -1,7 +1,7 @@
 <!--- Heading --->
 <div align="center">
   <img src="assets/logo.png" alt="logo" width="200" height="auto" />
-  <h1>Template README</h1>
+  <h1>Portfolio</h1>
   <p>
     An awesome README template for your projects! 
   </p>
@@ -152,7 +152,12 @@ The following functions are defined in the `req` class
 ## 6. Roadmap
 
 * [x] Set up a skeletal framework
-* [ ] Todo 2
+* [ ] Put timeline on timer roll so that one doesnt need to click on the arrow to the right
+* [ ] Add a timeline to for academic performance (incl. Journal)
+* [ ] Year is not visible in the timeline
+* [ ] Update the about me to a para rather than expander
+* [x] Highlight, bold and bring attention to parts of the about me section
+* [ ] Certifications
 
 <!-- FAQ -->
 ## 7. FAQ
