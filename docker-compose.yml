@@ -1,0 +1,15 @@
+---
+version: "2.1"
+services:
+  devlength:
+    image: ${NAME}:minimal
+    container_name: ${NAME}
+    env_file:
+      - ./EDIT.env
+    #ports:
+    #  - 9000:8501
+    restart: unless-stopped
+networks:
+  default:
+    external:
+        name: cloudflare-tunnel
