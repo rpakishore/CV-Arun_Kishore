@@ -2,7 +2,7 @@
 version: "2.1"
 services:
   devlength:
-    image: ${NAME}:minimal
+    image: ${NAME}:latest
     container_name: ${NAME}
     env_file:
       - ./EDIT.env
