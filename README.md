@@ -157,7 +157,7 @@ The following functions are defined in the `req` class
 * [ ] Year is not visible in the timeline
 * [ ] Update the about me to a para rather than expander
 * [x] Highlight, bold and bring attention to parts of the about me section
-* [ ] Certifications
+* [x] Certifications
 
 <!-- FAQ -->
 ## 7. FAQ
