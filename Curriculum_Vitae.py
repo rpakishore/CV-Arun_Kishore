@@ -6,21 +6,26 @@ import streamlit.components.v1 as components
 from streamlit_timeline import timeline
 import os
 
+# <!------ Page Configs ------>
 st.set_page_config(
         page_title='Arun Kishore\'s portfolio',
         layout="wide",
         page_icon='👨‍🔬',
         initial_sidebar_state="expanded")
 
+# <!------ Side bar Items ------>
 embed_component = {
     "linkedin":'<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script><div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="rpakishore" data-version="v1"></div>'
 }
-
 with st.sidebar:
         components.html(embed_component['linkedin'],height=310)
+        st.caption('Wish to connect?')
+        st.write('📧: rpakishore@gmail.com')
+        pdfFileObj = open(os.path.join('assets','Resume-Arun_Kishore.pdf'), 'rb')
+        st.download_button('Download Résumé',pdfFileObj,file_name='Resume-Arun_Kishore.pdf',mime='pdf')
 
+# <!------ About Me Section ------>
 st.subheader('About Me')
-
 st.write("""
             > “Dream to reach infinity, Dare to go beyond” 
 is one lucid line I experience resonating in my mind the most. An yearning appetite to better myself by inculcating new skills and acquiring new knowledge has been the recipe to my motivation. At the same time, the exhilaration in successfully conquering a challenge acts as the cornerstone to my passion.  
@@ -35,6 +40,7 @@ With an entrepreneurial spirit and practical mindset, blended with my profession
 """)
 st.markdown("""---""") 
 
+# <!------ Career Timeline ------>
 st.subheader('Career snapshot')
 with st.spinner(text="Building line"):
     with open('timeline.json', "r", encoding="utf-8") as f:
@@ -42,11 +48,7 @@ with st.spinner(text="Building line"):
         timeline(data, height=700)
 st.markdown("""---""") 
 
-st.sidebar.caption('Wish to connect?')
-st.sidebar.write('📧: rpakishore@gmail.com')
-pdfFileObj = open(os.path.join('assets','Resume-Arun_Kishore.pdf'), 'rb')
-st.sidebar.download_button('Download Résumé',pdfFileObj,file_name='Resume-Arun_Kishore.pdf',mime='pdf')
-
+# <!------ Featured Public Github Projects ------>
 st.subheader("Featured Programming Projects")
 left, middle, right = st.columns(3, gap="large")
 middle.write("##### [Concrete Slab Design](https://github.com/rpakishore/Concrete_Slabs)")
@@ -54,14 +56,13 @@ middle.write("Python-streamlit app for the design of reinforced concrete slabs s
 left.write("##### [Rebar Development length Calculator](https://github.com/rpakishore/Stru-Development-length)")
 left.write("Python-streamlit app to calculate development lengths, per CSA A23.3-19. ")
 right.write("##### [Concrete Test Results Summary Generator](https://github.com/rpakishore/Concrete_Test_Results)")
-
-
 right.write("Generate summary of concrete test results from submitted result PDFs ")
 st.markdown("""---""") 
+
+# <!------ Research Papers ------>
 st.subheader('Research Papers 📝')
 st.markdown('<h5><u>'+'Development of sugarcane bagasse ash based Portland pozzolana cement and evaluation of compatibility with superplasticizers' + '</h5>' , unsafe_allow_html=True)
 st.caption('Construction and Building Materials, Elsevier, 2014')
-
 with st.expander('detailed description'):
         with st.spinner(text="Loading details..."):
                 st.write("""
@@ -86,7 +87,6 @@ with st.expander('detailed description'):
 
 st.markdown('<h5><u>'+'Effects of Corrosion Inhibitors on the Critical Chloride Threshold of Thermo-Mechanically Treated (TMT) Steel' + '</h5>' , unsafe_allow_html=True)
 st.caption('SCMT3, Japan, Aug, 2013')
-
 with st.expander('detailed description'):
         with st.spinner(text="Loading details..."):
                 st.write("""
@@ -124,7 +124,8 @@ with st.expander('detailed description'):
                 conferencepaper = open(os.path.join('assets','SCMT-Kyoto20131.0.pdf'), 'rb')
                 st.download_button('Download paper',conferencepaper,file_name='SCMT-Kyoto20131.0.pdf',mime='pdf')
 st.markdown("""---""") 
-# ---- HIDE STREAMLIT STYLE ----
+
+# <!------ Footer ------>
 hide_st_style = """
                 <style>
                 #MainMenu{visibility: hidden;}
