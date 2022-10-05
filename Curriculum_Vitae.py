@@ -31,7 +31,7 @@ with st.expander("About Me"):
 
     Experienced with interfacing with architects and contractors, I am able to provide support and innovative solutions to structural problems on the project.
 
-    In addition to my Master’s degree in Civil Engineering (Structural) from Georgia Institute of Technology, my familiarity with BCBC, CSA, ACI, AISC, ASCE, and IBC codes have enabled me to pass the latest Professional Engineer Licensure (PE & P.Eng.) Examination with ease.
+    In addition to my Master's degree in Civil Engineering (Structural) from Georgia Institute of Technology, my familiarity with BCBC, CSA, ACI, AISC, ASCE, and IBC codes have enabled me to pass the latest Professional Engineer Licensure (PE & P.Eng.) Examination with ease.
 
     With an entrepreneurial spirit and practical mindset, blended with my professional experience, I intend to pursue a challenging and yet collaborative career with a steep learning curve in the domain of structural engineering.
             """)
