@@ -14,4 +14,4 @@ EXPOSE 8501
 COPY . /app
 
 ENTRYPOINT ["streamlit", "run"]
-CMD ["About.py"]
+CMD ["Curriculum_Vitae.py"]
