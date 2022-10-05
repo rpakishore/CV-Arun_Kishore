@@ -6,7 +6,11 @@ import streamlit.components.v1 as components
 from streamlit_timeline import timeline
 import os
 
-st.set_page_config(page_title='Arun Kishore\'s portfolio' ,layout="wide",page_icon='👨‍🔬')
+st.set_page_config(
+        page_title='Arun Kishore\'s portfolio',
+        layout="wide",
+        page_icon='👨‍🔬',
+        initial_sidebar_state="expanded")
 
 embed_component = {
     "linkedin":'<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script><div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="rpakishore" data-version="v1"></div>'
@@ -39,7 +43,7 @@ with st.spinner(text="Building line"):
 st.sidebar.caption('Wish to connect?')
 st.sidebar.write('📧: rpakishore@gmail.com')
 pdfFileObj = open(os.path.join('assets','Resume-Arun_Kishore.pdf'), 'rb')
-st.sidebar.download_button('Download Resume',pdfFileObj,file_name='Resume-Arun_Kishore.pdf',mime='pdf')
+st.sidebar.download_button('Download Résumé',pdfFileObj,file_name='Resume-Arun_Kishore.pdf',mime='pdf')
 
 icon_size = 20
 st.header("")
@@ -63,4 +67,34 @@ hide_st_style = """
                 header{visibility: hidden;}
                 </style>
                 """
-st.markdown(hide_st_style,unsafe_allow_html = True)  
+
+st.markdown(hide_st_style,unsafe_allow_html = True) 
+
+footer="""<style>
+a:link , a:visited{
+color: blue;
+background-color: transparent;
+text-decoration: underline;
+}
+
+a:hover,  a:active {
+color: red;
+background-color: transparent;
+text-decoration: underline;
+}
+
+.footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: white;
+color: black;
+text-align: center;
+}
+</style>
+<div class="footer">
+<p style="font-family:Source Sans Pro;">Developed by <a href="https://linkedin.com/in/rpakishore" target="_blank">Arun Kishore</a><br> ⬅ See side bar for Résumé and contact information</p>
+</div>
+"""
+st.markdown(footer,unsafe_allow_html=True)
