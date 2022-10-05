@@ -60,13 +60,13 @@ right.write("##### [Concrete Test Results Summary Generator](https://github.com/
 
 
 right.write("Generate summary of concrete test results from submitted result PDFs ")
-# st.components.v1.html("""
-# <h3 style="font-family:courier;">Created by</h3>
-# <p style="font-family:courier;">
-# Arun Kishore<br>
-# Structural EIT,<br>
-# Associated Engineering,<br>
-# <a href="mailto:rpakishore@gmail.com">Mail</a> • <a href="https://www.linkedin.com/in/rpakishore/">LinkedIn</a><br>
-# version: 1.1
-# </p>
-# """)
+
+# ---- HIDE STREAMLIT STYLE ----
+hide_st_style = """
+                <style>
+                #MainMenu{visibility: hidden;}
+                footer{visibility: hidden;}
+                header{visibility: hidden;}
+                </style>
+                """
+st.markdown(hide_st_style,unsafe_allow_html = True)  
