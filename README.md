@@ -155,7 +155,7 @@ The following functions are defined in the `req` class
 * [ ] Put timeline on timer roll so that one doesnt need to click on the arrow to the right
 * [ ] Add a timeline to for academic performance (incl. Journal)
 * [ ] Year is not visible in the timeline
-* [ ] Update the about me to a para rather than expander
+* [x] Update the about me to a para rather than expander
 * [x] Highlight, bold and bring attention to parts of the about me section
 * [x] Certifications
 
