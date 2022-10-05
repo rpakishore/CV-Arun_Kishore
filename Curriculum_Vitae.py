@@ -5,6 +5,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 from streamlit_timeline import timeline
 import os
+from PIL import Image
 
 # <!------ Page Configs ------>
 st.set_page_config(
@@ -125,6 +126,26 @@ with st.expander('detailed description'):
                 st.download_button('Download paper',conferencepaper,file_name='SCMT-Kyoto20131.0.pdf',mime='pdf')
 st.markdown("""---""") 
 
+# <!------ Research Papers ------>
+st.subheader('Certifications 📜')
+left,right = st.columns(2)
+
+with left:
+        st.markdown('<h5><u>'+'Fall Protection Training' + '</h5>' , unsafe_allow_html=True)
+        st.caption('ENVIROSAFETY, Sept. 2022')
+        st.caption('Certification ID# FP5996931')
+        with st.expander('Show Certificate'):
+                image = Image.open(os.path.join('assets', 'Arun_Kishore_FallProtection8Hours_26-Sep-2022.jpg'))
+                st.image(image, caption='Fall Protection Training Certificate')
+
+with right:
+        st.markdown('<h5><u>'+'Confined Space Entry' + '</h5>' , unsafe_allow_html=True)
+        st.caption('ENVIROSAFETY, Oct. 2022')
+        st.caption('Certification ID# CSE6022025')
+        with st.expander('Show Certificate'):
+                image = Image.open(os.path.join('assets', 'Arun_Kishore_CSEConfinedSpaceEntryStandbyAttendantNonentryRescue8H_03-Oct-2022.jpg'))
+                st.image(image, caption='Fall Protection Training Certificate')
+st.markdown("""---""") 
 # <!------ Footer ------>
 hide_st_style = """
                 <style>
