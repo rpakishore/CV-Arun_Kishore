@@ -24,11 +24,21 @@ def main():
         st.image(Image.open(image_path))
         st.markdown("""
                     <h3 style='text-align: center;'>
-                        <a href='https://linkedin.com/in/rpakishore' style='color: #31333f;'>Arun Kishore
+                        <a href='https://linkedin.com/in/rpakishore' style='color: #31333f;'>
+                            Arun Kishore
                         </a></br>
                     </h3>
                     <p style='text-align: center;'>
-                        <a href="portfolio@rpakishore.co.in" style='color: #31333f;'>📧: portfolio@rpakishore.co.in
+                        <a href="portfolio@rpakishore.co.in" style='color: #fe2b4b;'>
+                            📧: portfolio@rpakishore.co.in
+                        </a></br>
+                        <a href="https://www.linkedin.com/in/rpakishore/">
+                            Linkedin
                         </a>
-                    </p>""", unsafe_allow_html=True)
+                         | 
+                        <a href="https://github.com/rpakishore">
+                            Github
+                        </a>
+                    </p>
+                    """, unsafe_allow_html=True)
     st.markdown("""---""") 

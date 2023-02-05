@@ -5,7 +5,7 @@ from portfolio.html import LINKEDIN
 
 def table_of_contents():
     st.markdown("""
-<p>
+<p style="font-family: 'PT Serif'">
     <h4>Table of Contents</h4>
     <a href="#about-me">About Me</a></br>    
     <a href="#career-snapshot">Career snapshot</a></br>

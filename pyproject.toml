@@ -5,7 +5,6 @@ build-backend = "flit_core.buildapi"
 [project]
 name = "portfolio"
 authors = [{name = "Arun Kishore", email = "portfolio@rpakishore.co.in"}]
-readme = "README.md"
 license = {file = "LICENSE"}
 classifiers = ["License :: OSI Approved :: MIT License"]
 dynamic = ["version", "description"]

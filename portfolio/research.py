@@ -1,11 +1,12 @@
 import streamlit as st
 from pathlib import Path
 
+
 def main():
     st.subheader('Research Papers 📝')
-    st.markdown('<h5><u>'+'Development of sugarcane bagasse ash based Portland pozzolana cement and evaluation of compatibility with superplasticizers' + '</h5>' , unsafe_allow_html=True)
+    st.markdown('<h5>'+'Development of sugarcane bagasse ash based Portland pozzolana cement and evaluation of compatibility with superplasticizers' + '</h5>' , unsafe_allow_html=True)
     st.caption('Construction and Building Materials, Elsevier, 2014')
-    with st.expander('detailed description'):
+    with st.expander('Detailed Description'):
             with st.spinner(text="Loading details..."):
                     st.write("""
                     #### Highlights:
@@ -27,9 +28,9 @@ def main():
 
                     """)
 
-    st.markdown('<h5><u>'+'Effects of Corrosion Inhibitors on the Critical Chloride Threshold of Thermo-Mechanically Treated (TMT) Steel' + '</h5>' , unsafe_allow_html=True)
+    st.markdown('<h5>'+'Effects of Corrosion Inhibitors on the Critical Chloride Threshold of Thermo-Mechanically Treated (TMT) Steel' + '</h5>' , unsafe_allow_html=True)
     st.caption('SCMT3, Japan, Aug, 2013')
-    with st.expander('detailed description'):
+    with st.expander('Detailed Description'):
             with st.spinner(text="Loading details..."):
                     st.write("""
                     #### Abstract
