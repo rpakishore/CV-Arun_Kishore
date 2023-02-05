@@ -1,0 +1,12 @@
+---
+version: "2.1"
+services:
+  devlength:
+    image: ${NAME}:latest
+    container_name: ${NAME}
+    env_file:
+      - ./EDIT.env
+    ports:
+      - 9012:8501
+    restart: unless-stopped
+

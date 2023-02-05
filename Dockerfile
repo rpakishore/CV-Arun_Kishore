@@ -19,6 +19,8 @@ COPY . /app
 
 RUN pip3 install flit
 
+ENV FLIT_ROOT_INSTALL=1
+
 RUN flit install
 
 ENTRYPOINT ["streamlit", "run", "Curriculum_Vitae.py", "--server.port=8501", "--server.address=0.0.0.0"]
