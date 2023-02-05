@@ -11,10 +11,14 @@ RUN apt-get update && apt-get install -y \
     software-properties-common \
     && rm -rf /var/lib/apt/lists/*
 
-COPY requirements.txt ./requirements.txt
+#COPY requirements.txt ./requirements.txt
 
-RUN pip3 install -r requirements.txt
+#RUN pip3 install -r requirements.txt
 
 COPY . /app
+
+RUN pip3 install flit
+
+RUN flit install
 
 ENTRYPOINT ["streamlit", "run", "Curriculum_Vitae.py", "--server.port=8501", "--server.address=0.0.0.0"]
