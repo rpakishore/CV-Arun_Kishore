@@ -1,26 +1,25 @@
 # app/Dockerfile
 FROM python:3.9-slim
-MAINTAINER Arun rpakishore@gmail.com
 
 EXPOSE 8501
 
 WORKDIR /app
 
+ENV FLIT_ROOT_INSTALL=1
+
 RUN apt-get update && apt-get install -y \
     build-essential \
     software-properties-common \
-    && rm -rf /var/lib/apt/lists/*
-
-#COPY requirements.txt ./requirements.txt
-
-#RUN pip3 install -r requirements.txt
+    && rm -rf /var/lib/apt/lists/* \
+    && pip3 install --no-cache-dir --upgrade pip \
+    && pip3 install --no-cache-dir flit
 
 COPY . /app
 
-RUN pip3 install flit
-
-ENV FLIT_ROOT_INSTALL=1
-
 RUN flit install
+
+RUN mv /app/.streamlit ~/.streamlit
+
+HEALTHCHECK CMD curl --fail http://localhost:8501/_stcore/health
 
 ENTRYPOINT ["streamlit", "run", "Curriculum_Vitae.py", "--server.port=8501", "--server.address=0.0.0.0"]
