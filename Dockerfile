@@ -18,7 +18,7 @@ RUN apt-get update && apt-get install -y \
 
 COPY . /app
 
-RUN flit install
+RUN flit install --deps production
 
 RUN mv /app/.streamlit ~/.streamlit
 
