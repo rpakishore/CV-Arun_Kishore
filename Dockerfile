@@ -6,6 +6,8 @@ EXPOSE 8501
 WORKDIR /app
 
 ENV FLIT_ROOT_INSTALL=1
+ARG PIP_DISABLE_PIP_VERSION_CHECK=1
+ARG PIP_NO_CACHE_DIR=1
 
 RUN apt-get update && apt-get install -y \
     build-essential \
