@@ -29,7 +29,7 @@ def main():
                         </a></br>
                     </h3>
                     <p style='text-align: center;'>
-                        <a href="portfolio@rpakishore.co.in" style='color: #fe2b4b;'>
+                        <a href="mailto:portfolio@rpakishore.co.in" style='color: #fe2b4b;'>
                             📧: portfolio@rpakishore.co.in
                         </a></br>
                         <a href="https://www.linkedin.com/in/rpakishore/">

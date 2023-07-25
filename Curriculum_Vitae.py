@@ -2,7 +2,6 @@
 # coding: utf-8
 # https://github.com/mehulgupta2016154/portfolio_builder
 import streamlit as st
-from pathlib import Path
 
 from portfolio import (
         about_me, career_timeline, github, 
@@ -24,7 +23,7 @@ sidebar.main()
 # <!------ Title ------->
 st.markdown("""
             <h1 style='text-align: center;'>
-                Portfolio
+                Arun's Portfolio
             </h1>
             """,unsafe_allow_html = True) 
 
@@ -37,6 +36,15 @@ career_timeline.main()
 # <!------ Featured Public Github Projects ------>
 github.main()
 
+left, _ , _ = st.columns(3)
+from streamlit_card import card
+with left:
+    card(
+        title="Engiggneering Calculators",
+        text="Empowerggging Engineers Globally: Explore Simplified Structural Calculators for Smarter Designs. Join Now!",
+        image="https://raw.githubusercontent.com/rpakishore/CV-Arun_Kishore/main/assets/struct_work_screencap.png",
+        url="https://struct.work",
+    )
 # <!------ Research Papers ------>
 research.main()
 

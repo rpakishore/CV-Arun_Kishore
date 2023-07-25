@@ -33,13 +33,8 @@ def resume():
 
 def main():
 
-
     with st.sidebar:
+        linkedin()
         table_of_contents()
         email()
         resume()
-        linkedin()
-        
-        
-        
-        
