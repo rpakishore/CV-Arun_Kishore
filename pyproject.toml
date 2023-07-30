@@ -11,7 +11,8 @@ dynamic = ["version", "description"]
 
 dependencies = [
     "streamlit>=1.12.0",
-    "streamlit-timeline>=0.0.2"
+    "streamlit-timeline>=0.0.2",
+    "streamlit-extras"
 ]
 
 [project.urls]
