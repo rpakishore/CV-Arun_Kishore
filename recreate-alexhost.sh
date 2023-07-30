@@ -5,4 +5,4 @@ docker container stop $id 2>/dev/null
 docker container rm $id 2>/dev/null
 
 docker build -t ${NAME}:latest .
-docker-compose -f docker-compose-alexhost.yml up -d
+docker compose -f docker-compose-alexhost.yml up -d
