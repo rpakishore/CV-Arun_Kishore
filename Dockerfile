@@ -1,7 +1,7 @@
 # app/Dockerfile
 # MUltistage build
 # First Image
-FROM python:3.10-slim AS compile-image
+FROM python:3.11-slim AS compile-image
 
 EXPOSE 8501
 
@@ -28,7 +28,7 @@ COPY . /app
 RUN flit install --deps production
 
 
-FROM python:3.10-slim AS build-image
+FROM python:3.11-slim AS build-image
 
 COPY --from=compile-image /opt/venv /opt/venv
 
